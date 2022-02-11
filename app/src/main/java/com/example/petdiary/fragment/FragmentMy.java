@@ -452,6 +452,8 @@ public class FragmentMy extends Fragment implements com.example.petdiary.calback
             @Override
             public void callback(String choice) {
                 choicePetId = choice;
+                /* 동물 등록하고 나서 전체 데이터 새로고침 */
+                ((MainActivity)getActivity()).refresh(true);
                 if (choice.equals(""))
                     loadPostsAfterCheck(false);
                 else

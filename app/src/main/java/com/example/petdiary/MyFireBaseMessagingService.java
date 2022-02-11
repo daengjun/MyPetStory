@@ -52,7 +52,6 @@ public class MyFireBaseMessagingService extends com.google.firebase.messaging.Fi
         if (remoteMessage.getNotification() != null) {
             sendNotification(remoteMessage.getNotification());
 
-            Log.d("dsd", "onMessageReceived: " + remoteMessage.getNotification().getColor());
         }
     }
     /**
@@ -95,7 +94,7 @@ public class MyFireBaseMessagingService extends com.google.firebase.messaging.Fi
 
         // 1. 알림 메시지를 관리하는 notificationManager 객체 추출
         NotificationManager notificationManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
-        NotificationCompat.Builder builder = getNotificationBuilder(notificationManager, "chennal id", "첫번째 채널입니다");
+        NotificationCompat.Builder builder = getNotificationBuilder(notificationManager, "chennal id", "dangjun chennal");
 
         builder.setContentTitle(notification.getTitle())       // 콘솔에서 설정한 타이틀
                 .setContentText(notification.getBody())         // 콘솔에서 설정한 내용
