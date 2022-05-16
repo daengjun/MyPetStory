@@ -9,7 +9,9 @@
 5. 친구 목록 & 채팅방
 
 # 결과 화면
+
 **스플래시 아트 화면**  
+
 ![111](https://user-images.githubusercontent.com/98893006/168512567-52c8b59a-36d3-4211-a840-57a178c96b9f.png)
 
 ![222](https://user-images.githubusercontent.com/98893006/168512575-4e04f8a2-dd29-40ac-be94-80a66e209e8c.png)
