@@ -1,5 +1,6 @@
 # MyPetStory
 
+# 결과 화면
 
 ![111](https://user-images.githubusercontent.com/98893006/168512567-52c8b59a-36d3-4211-a840-57a178c96b9f.png)
 
